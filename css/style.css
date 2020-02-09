@@ -11,15 +11,132 @@ html, body {
   line-height: 1.5rem;
 }
 
-h1, h2, h3 {
-  margin-bottom: 20px;
+h2, h3 {
+  margin-bottom: 1.2rem;
 }
 
 p {
-  margin: 10px 0;
+  margin: 0.5rem 0;
+  line-height: 2rem;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
+}
+
+.text-primary {
+  color: gray;
+}
+
+
+/* Utilities */
+ .container {
+   margin: auto;
+   max-width: 68.76rem;
+   overflow: auto;
+   padding: 0 1.4rem;
+   height: 100%;
+ }
+
+ .clr {
+   clear: both;
+ }
+
+ .btn {
+   background-color: black;
+   border-radius: 0.3rem;
+   padding: 1.4rem;
+ }
+
+ .btn:hover {
+   background-color: gray;
+   color: black;
+ }
+
+.btn-light {
+  background-color: gray;
+  color: white;
+}
+
+.btn-light:hover {
+ background-color: white;
+ color: black;
+}
+
+ /* Navbar */
+#navbar {
+  background-color: black;
+}
+ 
+ #navbar .logo {
+   float: left;
+   padding: 1.2rem;
+   cursor: pointer;
+ }
+
+ #navbar ul {
+   float: right;
+   list-style: none;
+ }
+
+ #navbar ul li {
+   float: left;
+   padding: 1.2rem;
+ }
+
+ #navbar ul li:hover,
+ #navbar ul li.current {
+   background-color: gray;
+   cursor: pointer;
+ }
+
+ /* Showcase */
+ #showcase {
+   background: url('/img/water-station.jpg') no-repeat center center/cover;
+   height: 34.55rem;
+ }
+
+#showcase .showcase-content {
+  color: white;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#showcase .showcase-content h2 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+#showcase .showcase-content p { 
+  font-size: 1.1rem;
+  margin-bottom: 3rem; 
+}
+
+#home-info {
+  background-color: black;
+  height: 25rem;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  background: url('/img/water-station-front.jpg') center center/cover;
+}
+
+#home-info .info-content {
+  color: white;
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+#home-info .info-content h3 {
+  font-size: 1.5rem;
+}
+
+#home-info .info-content p {
+  margin-bottom: 3rem;
 }
