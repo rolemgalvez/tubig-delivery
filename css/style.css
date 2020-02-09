@@ -64,6 +64,21 @@ a {
  color: black;
 }
 
+.bg-light {
+  background-color: white;
+  color: black;
+}
+
+.bg-primary {
+  background-color: gray;
+  color: white;
+}
+
+.bg-dark {
+  background-color: black;
+  color: white;
+}
+
  /* Navbar */
 #navbar {
   background-color: black;
@@ -130,7 +145,7 @@ a {
   float: right;
   width: 50%;
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 0 2rem;
 }
 
 #home-info .info-content h3 {
@@ -139,4 +154,25 @@ a {
 
 #home-info .info-content p {
   margin-bottom: 3rem;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3333333333%;
+  text-align: center;
+  padding: 2rem 2.5rem;
+  height: 15rem;
+}
+
+.box i {
+  margin-bottom: 0.8rem;
+}
+
+/* Footer */
+#main-footer {
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 0.1rem;
+  text-align: center;
 }
