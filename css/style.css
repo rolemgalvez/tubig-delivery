@@ -93,16 +93,23 @@ a {
  #navbar ul {
    float: right;
    list-style: none;
+   text-align: center;
  }
 
  #navbar ul li {
-   float: left;
+  float: left;
+}
+
+ #navbar ul li a {
+   display: inline-block;
+   text-align: center;
    padding: 1.2rem;
  }
 
- #navbar ul li:hover,
- #navbar ul li.current {
+ #navbar ul li a:hover,
+ #navbar ul li a.current {
    background-color: gray;
+   color: black;
    cursor: pointer;
  }
 
@@ -128,9 +135,11 @@ a {
   margin-bottom: 3rem; 
 }
 
+/* Info */
+
 #home-info {
   background-color: black;
-  height: 25rem;
+  height: 35rem;
 }
 
 #home-info .info-img {
