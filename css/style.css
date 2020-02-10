@@ -33,9 +33,9 @@ a {
 /* Utilities */
  .container {
    margin: auto;
-   max-width: 68.76rem;
+   max-width: 75rem;
    overflow: auto;
-   padding: 0 1.4rem;
+   padding: 0 1rem;
    height: 100%;
  }
 
@@ -176,6 +176,54 @@ a {
 
 .box i {
   margin-bottom: 0.8rem;
+}
+
+/* Service */
+#service-info {
+  background-color: rgb(243, 243, 243);
+  height: 41rem;
+  padding: 2rem 0;
+}
+
+#service-info h3 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.service-details {
+  float: left;
+  width: 50%;
+  padding: 0 3rem;
+}
+
+.service-image {
+  padding: 0 3rem;
+  background: url(/img/water-station-inside.jpg) center center/cover;
+  float: right;
+  width: 50%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+/* Testimonials */
+#testimonials {
+  background: url(/img/water-station-highlight.jpg) center center/cover;
+  height: 50rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#testimonials h3 {
+  font-size: 3rem;
+  color: white;
+  line-height: 4rem;
+}
+
+#testimonials .testimonial {
+  background-color: rgb(230, 230, 230);
+  border-radius: 0.2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* Footer */
