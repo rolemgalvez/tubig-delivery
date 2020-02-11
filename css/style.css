@@ -180,43 +180,47 @@ a {
 
 /* Service */
 #service-info {
-  background-color: rgb(243, 243, 243);
-  height: 41rem;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
-#service-info h3 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
-
-.service-details {
+#service-info .info-left {
   float: left;
   width: 50%;
-  padding: 0 3rem;
+  padding-right: 2rem;
 }
 
-.service-image {
-  padding: 0 3rem;
-  background: url(/img/water-station-inside.jpg) center center/cover;
+#service-info .info-left h3 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  padding: 1rem 0;
+}
+
+#service-info .info-right {
   float: right;
   width: 50%;
-  height: 80%;
+  padding-left: 2rem;
+}
+
+#service-info .info-right img {
+  display: block;
   border-radius: 50%;
+  width: 100%;
+  padding-top: 1.7rem;
 }
 
 /* Testimonials */
 #testimonials {
   background: url(/img/water-station-highlight.jpg) center center/cover;
-  height: 50rem;
-  text-align: center;
-  padding-top: 4rem;
+  height: 100%;
+  padding: 4rem 0 3rem 0;
 }
 
 #testimonials h3 {
   font-size: 3rem;
   color: white;
   line-height: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 
 #testimonials .testimonial {
@@ -224,6 +228,14 @@ a {
   border-radius: 0.2rem;
   padding: 1rem;
   margin-bottom: 2rem;
+  overflow: auto;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  height: 6rem;
+  float: left;
+  margin-right: 1.2rem;
 }
 
 /* Footer */
