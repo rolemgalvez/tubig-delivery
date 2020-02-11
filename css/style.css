@@ -26,7 +26,7 @@ a {
 }
 
 .text-primary {
-  color: gray;
+  color: #279bdc;
 }
 
 
@@ -44,9 +44,10 @@ a {
  }
 
  .btn {
-   background-color: black;
+   background-color: #333;
    border-radius: 0.3rem;
    padding: 1.4rem;
+   border: none;
  }
 
  .btn:hover {
@@ -81,7 +82,7 @@ a {
 
  /* Navbar */
 #navbar {
-  background-color: black;
+  background-color: #333333;
 }
  
  #navbar .logo {
@@ -108,8 +109,8 @@ a {
 
  #navbar ul li a:hover,
  #navbar ul li a.current {
-   background-color: gray;
-   color: black;
+   background-color: #279bdc;
+   color: #333;
    cursor: pointer;
  }
 
@@ -171,7 +172,7 @@ a {
   width: 33.3333333333%;
   text-align: center;
   padding: 2rem 2.5rem;
-  height: 15rem;
+  height: 100%;
 }
 
 .box i {
@@ -216,10 +217,10 @@ a {
 }
 
 #testimonials h3 {
-  font-size: 3rem;
   color: white;
+  font-size: 3rem;
   line-height: 4rem;
-  margin-bottom: 4rem;
+  : 4rem;
   text-align: center;
 }
 
@@ -227,7 +228,7 @@ a {
   background-color: rgb(230, 230, 230);
   border-radius: 0.2rem;
   padding: 1rem;
-  margin-bottom: 2rem;
+  : 2rem;
   overflow: auto;
   opacity: 0.9;
 }
@@ -236,6 +237,47 @@ a {
   height: 6rem;
   float: left;
   margin-right: 1.2rem;
+}
+
+/* Contact */
+#contact-form {
+  padding: 2rem 1rem;
+}
+
+#contact-form h1 {
+  font-size: 2.5rem;
+  padding: 1.2rem 0;
+}
+
+#contact-form .form-group {
+  margin-bottom: 1.3rem;
+}
+
+#contact-form .form-group label {
+  display: block;
+  margin-bottom: 0.1rem;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid rgb(202, 202, 202);
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
+  outline: none;
+  border-color: black;
+}
+
+#contact-form button {
+  color: white;
+  font-size: 1rem;
+}
+
+#contact-form button:hover {
+  color: black;
 }
 
 /* Footer */
