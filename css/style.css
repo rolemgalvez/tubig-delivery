@@ -44,39 +44,36 @@ a {
  }
 
  .btn {
-   background-color: #333;
+   background-color: #333333;
    border-radius: 0.3rem;
    padding: 1.4rem;
    border: none;
  }
-
- .btn:hover {
-   background-color: gray;
-   color: black;
- }
-
-.btn-light {
-  background-color: gray;
-  color: white;
+ 
+ .btn-light {
+  background-color: white;
+  color: #333333;
 }
 
+.btn:hover,
 .btn-light:hover {
- background-color: white;
- color: black;
+  background-color: #279bdc;
+  color: #333333;
+  cursor: pointer;
 }
 
 .bg-light {
-  background-color: white;
-  color: black;
+  background-color: #f0f8ff;
+  color: #333333;
 }
 
 .bg-primary {
-  background-color: gray;
-  color: white;
+  background-color: #279bdc;
+  color: #333333;
 }
 
 .bg-dark {
-  background-color: black;
+  background-color: #333333;
   color: white;
 }
 
@@ -109,8 +106,8 @@ a {
 
  #navbar ul li a:hover,
  #navbar ul li a.current {
-   background-color: #279bdc;
-   color: #333;
+   background-color: #52595F;
+   color: #279bdc;
    cursor: pointer;
  }
 
@@ -139,7 +136,7 @@ a {
 /* Info */
 
 #home-info {
-  background-color: black;
+  background-color: #333333;
   height: 25rem;
 }
 
@@ -182,6 +179,7 @@ a {
 /* Service */
 #service-info {
   padding: 2rem;
+  background-color: #f0f8ff;
 }
 
 #service-info .info-left {
@@ -194,6 +192,7 @@ a {
   font-size: 3rem;
   line-height: 3.5rem;
   padding: 1rem 0;
+  color: #333333;
 }
 
 #service-info .info-right {
@@ -220,17 +219,17 @@ a {
   color: white;
   font-size: 3rem;
   line-height: 4rem;
-  : 4rem;
+  margin-bottom: 4rem;
   text-align: center;
 }
 
 #testimonials .testimonial {
-  background-color: rgb(230, 230, 230);
+  background-color: #f0f8ff;
   border-radius: 0.2rem;
   padding: 1rem;
-  : 2rem;
+  margin-bottom: 2rem;
   overflow: auto;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 #testimonials .testimonial img {
@@ -262,13 +261,13 @@ a {
 #contact-form .form-group textarea {
   width: 100%;
   padding: 0.6rem;
-  border: 1px solid rgb(202, 202, 202);
+  border: 1px solid #CAD1D7;
 }
 
 #contact-form .form-group input:focus,
 #contact-form .form-group textarea:focus {
   outline: none;
-  border-color: black;
+  border-color: #279bdc;
 }
 
 #contact-form button {
@@ -282,7 +281,7 @@ a {
 
 /* Footer */
 #main-footer {
-  background-color: rgb(59, 59, 59);
+  background-color: #444444;
   color: white;
   padding: 0.1rem;
   text-align: center;
