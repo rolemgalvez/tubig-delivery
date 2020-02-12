@@ -40,6 +40,10 @@ a {
    height: 100%;
  }
 
+ .inline-link {
+   color: #279bdc;
+ }
+
  .clr {
    clear: both;
  }
