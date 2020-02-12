@@ -18,6 +18,7 @@ h2, h3 {
 p {
   margin: 0.5rem 0;
   line-height: 2rem;
+  word-wrap: break-word;
 }
 
 a {
@@ -137,7 +138,7 @@ a {
 
 #home-info {
   background-color: #333333;
-  height: 25rem;
+  height: 30rem;
 }
 
 #home-info .info-img {
@@ -164,11 +165,15 @@ a {
 }
 
 /* Features */
+#features {
+  height: 18rem;
+}
+
 .box {
   float: left;
   width: 33.3333333333%;
   text-align: center;
-  padding: 2rem 2.5rem;
+  padding: 3rem 2.5rem 2rem 2.5rem;
   height: 100%;
 }
 
@@ -283,6 +288,6 @@ a {
 #main-footer {
   background-color: #444444;
   color: white;
-  padding: 0.1rem;
+  padding: 0.1rem 1rem;
   text-align: center;
 }
