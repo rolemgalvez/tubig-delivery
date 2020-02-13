@@ -22,4 +22,4 @@ Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view
 * gray: #52595F
 * black: #333333
 
-<img src="./img/snapshots/contact-mobile.PNG" style="box-shadow: 0 0 1px gray">
+<img src="./img/snapshots/contact-mobile.PNG" style=" border: 1px solid gray">
