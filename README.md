@@ -10,7 +10,7 @@ Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view
 | ----------- | ----------- |
 | ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG) | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG) |
 | ![About Page - Desktop View](./img/snapshots/about-desktop.PNG) | ![About Page - Mobile View](./img/snapshots/about-mobile.PNG) |
-| ![Contact Page - Desktop View](./img/snapshots/contact-desktop.PNG) | ![Contact Page - Mobile View](./img/snapshots/contact-mobile.PNG) |
+| ![Contact Page - Desktop View](./img/snapshots/contact-desktop.PNG) | ![Contact Page - Mobile View](./img/snapshots/contact-mobile.PNG?classes=shadow) |
 
 ## Purpose
 * Review my HTML & CSS knowledge
@@ -21,5 +21,3 @@ Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view
 * ligh-gray: #f0f8ff
 * gray: #52595F
 * black: #333333
-
-<img src="./img/snapshots/contact-mobile.PNG" style=" border: 1px solid gray">
