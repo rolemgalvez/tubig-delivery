@@ -8,12 +8,9 @@ Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view
 ## Snapshots
 |   Desktop   |   Mobile    |
 | ----------- | ----------- |
-| ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG) | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG) |
-| ![About Page -](./img/snapshots/about-desktop.PNG) | ![](./img/snapshots/about-mobile.PNG) |
-| ![](./img/snapshots/contact-desktop.PNG) | ![](./img/snapshots/contact-mobile.PNG) |
-
-<img src="./img/snapshots/contact-mobile.PNG" alt="Contact Page - Mobile View"
-	title="Contact Page - Mobile View" box-shadow="0 0 5px yellow" />
+| ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG){: .shadow} | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG){: .shadow} |
+| ![About Page - Desktop View](./img/snapshots/about-desktop.PNG){: .shadow} | ![About Page - Mobile View](./img/snapshots/about-mobile.PNG){: .shadow} |
+| ![Contact Page - Desktop View](./img/snapshots/contact-desktop.PNG){: .shadow} | ![Contact Page - Mobile View](./img/snapshots/contact-mobile.PNG){: .shadow} |
 
 ## Purpose
 * Review my HTML & CSS knowledge
