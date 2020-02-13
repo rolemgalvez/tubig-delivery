@@ -14,7 +14,7 @@ Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view
 ## Snapshots
 |   Desktop   |   Mobile    |
 | ----------- | ----------- |
-| ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG) | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG) |
+| ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG#img) | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG#img) |
 | ![About Page - Desktop View](./img/snapshots/about-desktop.PNG) | ![About Page - Mobile View](./img/snapshots/about-mobile.PNG) |
 | ![Contact Page - Desktop View](./img/snapshots/contact-desktop.PNG) | ![Contact Page - Mobile View](./img/snapshots/contact-mobile.PNG) |
 
