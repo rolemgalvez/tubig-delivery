@@ -1,9 +1,3 @@
-<style>
-  img {
-    box-shadow: 0 0 1px gray;
-  }
-</style>
-
 # Tubig Delivery Service
 
 ## Description
@@ -14,7 +8,7 @@ Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view
 ## Snapshots
 |   Desktop   |   Mobile    |
 | ----------- | ----------- |
-| ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG#img) | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG#img) |
+| ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG) | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG) |
 | ![About Page - Desktop View](./img/snapshots/about-desktop.PNG) | ![About Page - Mobile View](./img/snapshots/about-mobile.PNG) |
 | ![Contact Page - Desktop View](./img/snapshots/contact-desktop.PNG) | ![Contact Page - Mobile View](./img/snapshots/contact-mobile.PNG) |
 
@@ -28,3 +22,8 @@ Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view
 * gray: #52595F
 * black: #333333
 
+<style>
+  img {
+    box-shadow: 0 0 1px gray;
+  }
+</style>
