@@ -1,7 +1,7 @@
 # Tubig Delivery Service
 A website for an imaginary water refilling station. It provides information about its offers and background. Contact form is also provided with only a front-end capability.
 
-Go now to [Tubig Delivery Service](https://tds-mrg.netlify.com/) website to view it.
+Go now to [Tubig Delivery Service](https://tubig-delivery-service-mrg.netlify.com) website to view it.
 
 ## Snapshots
 |   Desktop   |   Mobile    |
