@@ -3,7 +3,7 @@ A website for an imaginary water refilling station. It provides information abou
 
 Go now to [Tubig Delivery Service](https://tubig-delivery-service-mrg.netlify.com) website to view it.
 
-## Snapshots
+## Preview
 |   Desktop   |   Mobile    |
 | ----------- | ----------- |
 | ![Home Page - Desktop View](./img/snapshots/home-desktop.PNG) | ![Home Page - Mobile View](./img/snapshots/home-mobile.PNG) |
