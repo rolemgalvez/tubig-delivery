@@ -6,12 +6,14 @@
 }
 
 /* Main Styling */
-html, body {
-  font-family: 'Roboto', sans-serif;;
+html,
+body {
+  font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
 }
 
-h2, h3 {
+h2,
+h3 {
   margin-bottom: 1.2rem;
 }
 
@@ -30,32 +32,31 @@ a {
   color: #279bdc;
 }
 
-
 /* Utilities */
- .container {
-   margin: auto;
-   max-width: 75rem;
-   overflow: auto;
-   padding: 0 1rem;
-   height: 100%;
- }
+.container {
+  margin: auto;
+  max-width: 75rem;
+  overflow: auto;
+  padding: 0 1rem;
+  height: 100%;
+}
 
- .inline-link {
-   color: #279bdc;
- }
+.inline-link {
+  color: #279bdc;
+}
 
- .clr {
-   clear: both;
- }
+.clr {
+  clear: both;
+}
 
- .btn {
-   background-color: #333333;
-   border-radius: 0.3rem;
-   padding: 1.4rem;
-   border: none;
- }
- 
- .btn-light {
+.btn {
+  background-color: #333333;
+  border-radius: 0.3rem;
+  padding: 1.4rem;
+  border: none;
+}
+
+.btn-light {
   background-color: white;
   color: #333333;
 }
@@ -82,45 +83,45 @@ a {
   color: white;
 }
 
- /* Navbar */
+/* Navbar */
 #navbar {
   background-color: #333333;
 }
- 
- #navbar .logo {
-   float: left;
-   padding: 1.2rem;
-   cursor: pointer;
- }
 
- #navbar ul {
-   float: right;
-   list-style: none;
-   text-align: center;
- }
+#navbar .logo {
+  float: left;
+  padding: 1.2rem;
+  cursor: pointer;
+}
 
- #navbar ul li {
+#navbar ul {
+  float: right;
+  list-style: none;
+  text-align: center;
+}
+
+#navbar ul li {
   float: left;
 }
 
- #navbar ul li a {
-   display: inline-block;
-   text-align: center;
-   padding: 1.2rem;
- }
+#navbar ul li a {
+  display: inline-block;
+  text-align: center;
+  padding: 1.2rem;
+}
 
- #navbar ul li a:hover,
- #navbar ul li a.current {
-   background-color: #52595F;
-   color: #279bdc;
-   cursor: pointer;
- }
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #52595f;
+  color: #279bdc;
+  cursor: pointer;
+}
 
- /* Showcase */
- #showcase {
-   background: url('/img/water-station.jpg') no-repeat center center/cover;
-   height: 34.55rem;
- }
+/* Showcase */
+#showcase {
+  background: url("../img/water-station.jpg") no-repeat center center/cover;
+  height: 34.55rem;
+}
 
 #showcase .showcase-content {
   color: white;
@@ -133,9 +134,9 @@ a {
   margin-bottom: 2.5rem;
 }
 
-#showcase .showcase-content p { 
+#showcase .showcase-content p {
   font-size: 1.1rem;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
 }
 
 /* Info */
@@ -149,7 +150,7 @@ a {
   float: left;
   width: 50%;
   min-height: 100%;
-  background: url('/img/water-station-front.jpg') center center/cover;
+  background: url("../img/water-station-front.jpg") center center/cover;
 }
 
 #home-info .info-content {
@@ -219,7 +220,7 @@ a {
 
 /* Testimonials */
 #testimonials {
-  background: url(/img/water-station-highlight.jpg) center center/cover;
+  background: url("../img/water-station-highlight.jpg") center center/cover;
   height: 100%;
   padding: 4rem 0 3rem 0;
 }
@@ -270,7 +271,7 @@ a {
 #contact-form .form-group textarea {
   width: 100%;
   padding: 0.6rem;
-  border: 1px solid #CAD1D7;
+  border: 1px solid #cad1d7;
 }
 
 #contact-form .form-group input:focus,
